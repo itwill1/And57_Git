@@ -6,11 +6,13 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private TextView tv;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tv = (TextView) findViewById(R.id.textView);
+        tv = (TextView) findViewById(R.id.textView);
     }
 
     public void test() {
@@ -19,5 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void testAAA() {
         // developer aaa
+    }
+
+    public void testBBB() {
+        // 개발자 bbb
     }
 }
